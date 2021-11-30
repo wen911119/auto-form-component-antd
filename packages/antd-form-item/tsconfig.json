@@ -1,0 +1,9 @@
+{
+  "include": ["./css-modules.d.ts", "src"],
+  "allowSyntheticDefaultImports": true,
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "outDir": "lib/",
+  }
+}

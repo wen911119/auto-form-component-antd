@@ -1,0 +1,44 @@
+{
+  "name": "@ruiyun/antd-form-item",
+  "version": "1.0.0",
+  "description": "Antd表单组件的包括层，包裹后可以用布尔的error控制错误态",
+  "keywords": [
+    "antd",
+    "auto-form"
+  ],
+  "author": "wen911119@163.com",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/antd-form-item.cjs",
+  "source": "src/index.tsx",
+  "exports": "./lib/antd-form-item.modern.js",
+  "module": "./lib/antd-form-item.module.js",
+  "unpkg": "./lib/antd-form-item.umd.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "microbundle": "^0.14.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "antd": "^4.17.2"
+  },
+  "scripts": {
+    "build": "microbundle --jsx React.createElement",
+    "dev": "microbundle watch",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "typings": "./lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
+}
