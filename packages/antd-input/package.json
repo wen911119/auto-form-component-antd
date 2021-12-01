@@ -1,0 +1,47 @@
+{
+  "name": "@ruiyun/antd-input",
+  "version": "1.0.0",
+  "description": "基础text的react版",
+  "keywords": [
+    "text",
+    "react"
+  ],
+  "author": "wen911119@163.com",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/antd-input.cjs",
+  "source": "src/index.tsx",
+  "exports": "./lib/antd-input.modern.js",
+  "module": "./lib/antd-input.module.js",
+  "unpkg": "./lib/antd-input.umd.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "antd": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "microbundle": "^0.14.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "antd": "^4.17.2",
+    "@ruiyun/antd-form-item": "^1.0.0",
+    "ahooks": "^2.10.12"
+  },
+  "scripts": {
+    "build": "microbundle --jsx React.createElement",
+    "dev": "microbundle watch",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "typings": "./lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
+}
