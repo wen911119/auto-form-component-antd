@@ -22,17 +22,17 @@
     "lib"
   ],
   "peerDependencies": {
-    "react": "^17.0.2",
-    "antd": "^4.17.2"
+    "antd": "^4.17.2",
+    "react": "^17.0.2"
   },
   "devDependencies": {
+    "@ruiyun/antd-form-item": "^1.0.0",
     "@types/react": "^17.0.5",
+    "ahooks": "^2.10.12",
+    "antd": "^4.17.2",
     "microbundle": "^0.14.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "antd": "^4.17.2",
-    "@ruiyun/antd-form-item": "^1.0.0",
-    "ahooks": "^2.10.12"
+    "react-dom": "^17.0.2"
   },
   "scripts": {
     "build": "microbundle --jsx React.createElement",
